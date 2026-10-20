@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101026">
+  <meta name="description" content="Muhammad Waseem's personal portfolio, IT skills and projects.">
+  <title>Muhammad Waseem | IT Student & Developer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="background-glow glow-one"></div>
+  <div class="background-glow glow-two"></div>
+
+  <header class="navbar">
+    <a class="logo" href="#home">MW<span>.</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation menu" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact" class="nav-contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-content">
+        <div class="availability">
+          <span class="status-dot"></span>
+          IT Student · Learning & Building
+        </div>
+
+        <p class="eyebrow">HELLO, WORLD! I'M</p>
+
+        <h1>Muhammad<br><span class="gradient-text">Waseem.</span></h1>
+
+        <h2 class="hero-role">Aspiring <span id="roleText">Web Developer</span><span class="cursor">|</span></h2>
+
+        <p class="hero-description">
+          I'm an Information Technology student passionate about technology,
+          creative problem-solving, and building useful digital experiences.
+          Every project is a new opportunity to learn.
+        </p>
+
+        <div class="hero-buttons">
+          <a class="button button-primary" href="#projects">
+            Explore My Work <span>↗</span>
+          </a>
+          <a class="button button-secondary" href="#contact">
+            Let's Connect
+          </a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://github.com/" target="_blank" rel="https://github.com/maharwaseem80391-sudo">GitHub ↗</a>
+          <span>·</span>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+
+        <div class="photo-frame">
+          <img src="profile1.png" alt="Portrait of Muhammad Waseem"
+            class="profile-photo">
+          <div class="photo-fallback">
+            <span>MW</span>
+            <small>YOUR PHOTO HERE</small>
+          </div>
+        </div>
+
+        <div class="floating-card card-top">
+          <span class="floating-icon">✦</span>
+          <div><strong>Curious Mind</strong><small>Always learning</small></div>
+        </div>
+
+        <div class="floating-card card-bottom">
+          <span class="code-icon">&lt;/&gt;</span>
+          <div><strong>Code. Learn. Grow.</strong><small>One step at a time</small></div>
+        </div>
+
+        <span class="spark spark-one">✳</span>
+        <span class="spark spark-two">✦</span>
+      </div>
+
+      <a class="scroll-indicator" href="#about">SCROLL TO EXPLORE ↓</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">GET TO KNOW ME</p>
+        <h2>A little about <span class="gradient-text">my journey.</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-card about-main">
+          <span class="card-symbol">✳</span>
+          <h3>Learning today.<br>Building for tomorrow.</h3>
+          <p>
+            I'm Muhammad Waseem, an IT student at the University of Layyah completed 4 semesters.
+            I'm developing my skills in programming and web technologies
+            through hands-on practice and university projects.
+          </p>
+          <p>
+            My goal is to become a capable IT professional, keep improving,
+            and create digital solutions that make a difference.
+          </p>
+        </div>
+
+        <div class="about-card fact-card">
+          <span class="fact-icon">🎓</span>
+          <h3>My Education</h3>
+          <p>Information Technology</p>
+          <small>University of Layyah</small>
+        </div>
+
+        <div class="about-card fact-card">
+          <span class="fact-icon">🚀</span>
+          <h3>My Approach</h3>
+          <p>Learn by doing</p>
+          <small>Practice · Projects · Progress</small>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">WHAT I'M LEARNING</p>
+        <h2>My <span class="gradient-text">tech toolkit.</span></h2>
+        <p class="section-description">
+          Skills I'm developing through study, practice, and personal projects.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-card"><span class="skill-symbol html">5</span><h3>HTML</h3><p>Web structure</p></div>
+        <div class="skill-card"><span class="skill-symbol css">✿</span><h3>CSS</h3><p>Design & layouts</p></div>
+        <div class="skill-card"><span class="skill-symbol js">JS</span><h3>JavaScript</h3><p>Web interactivity</p></div>
+        <div class="skill-card"><span class="skill-symbol py">Py</span><h3>Python</h3><p>Programming basics</p></div>
+        <div class="skill-card"><span class="skill-symbol db">▤</span><h3>SQL</h3><p>Database fundamentals</p></div>
+        <div class="skill-card"><span class="skill-symbol git">⌘</span><h3>Git & GitHub</h3><p>Version control</p></div>
+      </div>
+      <p class="skills-note">These are learning areas, not a claim of expert-level proficiency.</p>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">A FEW THINGS I'VE BUILT</p>
+        <h2>My featured <span class="gradient-text">projects.</span></h2>
+        <p class="section-description">
+          Practical projects that help me turn concepts into experience.
+        </p>
+      </div>
+
+      <div class="filter-buttons" aria-label="Filter projects">
+        <button class="filter-button active" data-filter="all">All Projects</button>
+        <button class="filter-button" data-filter="web">Web Development</button>
+        <button class="filter-button" data-filter="javascript">JavaScript</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card" data-category="web">
+          <div class="project-art art-one"><span>01</span><div class="art-window">WEB<br>DESIGN.</div></div>
+          <div class="project-info">
+            <p class="project-type">WEB DEVELOPMENT</p>
+            <h3>University Blog Website</h3>
+            <p>A website concept for sharing university news, campus stories, and student experiences.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="https://maharwaseem80391-sudo.github.io/blog-website/" href="#contact">Ask me about this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="javascript">
+          <div class="project-art art-two"><span>02</span><div class="calculator-art">123<br><small>+ − × ÷</small></div></div>
+          <div class="project-info">
+            <p class="project-type">JAVASCRIPT</p>
+            <h3>Smart Calculator</h3>
+            <p>A calculator project with basic arithmetic and a scientific calculator interface.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="https://maharwaseem80391-sudo.github.io/nova-scientific-calculator/" href="#contact">Ask me about this project ↗</a>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="javascript">
+          <div class="project-art art-three"><span>03</span><div class="tic-art">X <i>O</i> X<br>O X O<br>X O <i>X</i></div></div>
+          <div class="project-info">
+            <p class="project-type">JAVASCRIPT</p>
+            <h3>Tic-Tac-Toe Game</h3>
+            <p>A simple browser game built to practise JavaScript logic and interactive interfaces.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="https://maharwaseem80391-sudo.github.io/xo-Arena-/" href="#contact">Ask me about this project ↗</a>
+          </div>
+        </article>
+      </div>
+      <p class="skills-note">I make these projects myself as a practice only that already exists.These are not my personals.</p>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+        <h2>Let's make something <span class="gradient-text">great.</span></h2>
+        <p>
+          Interested in my work or want to connect about technology?
+          Send me a message.
+        </p>
+
+        <form id="contactForm">
+          <div class="form-row">
+            <label for="senderName">Your name</label>
+            <input id="senderName" name="name" type="text" placeholder="Enter your name" required>
+          </div>
+          <div class="form-row">
+            <label for="senderEmail">Your email</label>
+            <input id="senderEmail" name="email" type="email" placeholder="you@example.com" required>
+          </div>
+          <div class="form-row">
+            <label for="senderMessage">Your message</label>
+            <textarea id="senderMessage" name="message" rows="4" placeholder="Tell me what you have in mind..." required></textarea>
+          </div>
+          <button class="button button-primary submit-button" type="submit">Prepare Email ↗</button>
+          <p class="form-note" id="formNote">This opens your email app; it does not send messages directly from the website.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">MW<span>.</span></a>
+    <p>Designed & built by Muhammad Waseem · <span id="year"></span></p>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
